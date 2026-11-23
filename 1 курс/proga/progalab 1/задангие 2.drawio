@@ -1,0 +1,104 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Страница — 1" id="JCQBJap8XBLD_B7ZCpNq">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="g3GUJ-nnGqjrlAAdYYKc-1" target="g3GUJ-nnGqjrlAAdYYKc-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Начало&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="320" y="170" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g3GUJ-nnGqjrlAAdYYKc-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ввод N, M&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-5" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;s = 0&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="350" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="550" as="targetPoint" />
+            <mxPoint x="420" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="g3GUJ-nnGqjrlAAdYYKc-7" edge="1" target="g3GUJ-nnGqjrlAAdYYKc-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-7" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;M &amp;gt; 0 ?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="440" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-10" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="520" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-11" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="450" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="g3GUJ-nnGqjrlAAdYYKc-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Вывод s&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="550" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-14" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Конец&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="320" y="640" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="650" as="sourcePoint" />
+            <mxPoint x="700" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g3GUJ-nnGqjrlAAdYYKc-16" target="g3GUJ-nnGqjrlAAdYYKc-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-16" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;s = s +(N % 10)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="550" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SMbB0GOnRqcyTz6EApmB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g3GUJ-nnGqjrlAAdYYKc-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="730" />
+              <mxPoint x="280" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-18" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;N = N // 10&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;M = M - 1&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="640" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g3GUJ-nnGqjrlAAdYYKc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="g3GUJ-nnGqjrlAAdYYKc-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XPUY4iLH0SdnhOj0LWKi-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="550" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPUY4iLH0SdnhOj0LWKi-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;% - остаток от целочисленного деления&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="860" y="565" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XPUY4iLH0SdnhOj0LWKi-8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="640" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPUY4iLH0SdnhOj0LWKi-9" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;// - целочисленное деление&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="860" y="640" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Страница-1" id="lrnWo6rO7R8Oqq7k4-_E">
+    <mxGraphModel dx="1678" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4kmRDmKRnScOfodNjVqn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-1" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-3" value="Ввод N" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="4kmRDmKRnScOfodNjVqn-6" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;i = N&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-7" value="Ввод массива" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="4kmRDmKRnScOfodNjVqn-9" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-9" value="Ввод a[i]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="4kmRDmKRnScOfodNjVqn-11" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-11" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="540" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-12" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontSize=18;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-13" value="Ввод массива" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="330" y="690" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="4kmRDmKRnScOfodNjVqn-15" target="4kmRDmKRnScOfodNjVqn-7" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-15" value="i = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-18" value="i = 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="740" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;i = N-1&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="840" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-21" value="Проверка" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="330" y="840.0000000000002" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1040" />
+              <mxPoint x="600" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-23" value="не (a[i] &amp;gt; a[i-1] и&amp;nbsp;&lt;div&gt;a[i] &amp;gt; a[i+1])&lt;div&gt;или (a[i] &amp;lt; a[i-1] и&lt;/div&gt;&lt;/div&gt;&lt;div&gt;a[i] &amp;lt; a[i+1])&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="940" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-25" value="Да" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1010" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-27" value="Нет" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-28" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1160" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-30" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontSize=18;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1260" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-31" value="Проверка" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1310" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-33" value="Вывод Yes" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1360" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-35" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1480" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4kmRDmKRnScOfodNjVqn-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="1300" />
+              <mxPoint x="680" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmRDmKRnScOfodNjVqn-36" value="Вывод No" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1060" width="240" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

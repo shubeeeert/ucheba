@@ -1,0 +1,246 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Страница-1" id="24RAJxZ0BqnOt04QXFTL">
+    <mxGraphModel dx="2194" dy="1306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-1" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-3" value="Ввод x1, y1,&lt;div&gt;x2, y2&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-5" target="nsXe-Pa0WmNETI8y-mAR-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-5" target="nsXe-Pa0WmNETI8y-mAR-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-5" value="x1 &amp;lt; x2 ?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-11" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Нет&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-12" value="l = x1&lt;div&gt;r = x2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="560" />
+              <mxPoint x="440" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-13" value="l = x2&lt;div&gt;r = x1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-18" target="nsXe-Pa0WmNETI8y-mAR-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-18" target="nsXe-Pa0WmNETI8y-mAR-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-18" value="y1 &amp;lt; y2 ?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-20" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Нет&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-22" value="b = y1&lt;div&gt;t = y2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="840" />
+              <mxPoint x="440" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-24" value="b = y2&lt;div&gt;t = y1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-25" target="nsXe-Pa0WmNETI8y-mAR-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="945" />
+              <mxPoint x="880" y="320" />
+              <mxPoint x="1080" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-25" value="r &amp;lt; 0&amp;nbsp;&lt;div&gt;или&lt;/div&gt;&lt;div&gt;t &amp;lt; 0&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="320" y="880" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1010" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-28" value="Вывод 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1050" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-30" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1200" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="410" />
+              <mxPoint x="1230" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-32" target="nsXe-Pa0WmNETI8y-mAR-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="560.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-32" value="l &amp;lt; 0 ?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="960" y="360" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1320" y="540" />
+              <mxPoint x="1320" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-34" value="l = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="440" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-35" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-37" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Нет&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1091" y="460" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="650" />
+              <mxPoint x="1230" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-40" value="r &amp;lt; 0 ?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="960" y="600" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1320" y="780" />
+              <mxPoint x="1320" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-41" value="r = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="680" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-42" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-43" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Нет&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1091" y="700" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-47" value="s = (r-l)*(t-b)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="960" y="840" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nsXe-Pa0WmNETI8y-mAR-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-49" value="Вывод s" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="960" y="960" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsXe-Pa0WmNETI8y-mAR-52" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Нет&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="910" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

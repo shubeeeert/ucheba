@@ -1,0 +1,39 @@
+# Compiled binaries and build output
+*.exe
+*.dll
+*.pyc
+__pycache__/
+bin/
+obj/
+
+# Generated data arrays and archives
+*.npy
+*.zip
+
+# Editor / OS temp files
+*.bkp
+*.dtmp
+*.tmp
+~$*
+.DS_Store
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+_minted/
+
+# Large datasets (kept locally only)
+2 курс/практика/praktika/data/logs.zip
+2 курс/практика/praktika/data/adv_view_history.csv
+2 курс/практика/praktika/data/devices.csv
+2 курс/практика/praktika/data/sessions.csv
+2 курс/практика/praktika/data/users.csv
+2 курс/практика/praktika/data/device_code.csv
+2 курс/практика/praktika/data/transactions.csv
+2 курс/практика/praktika/data/advertising_ids.csv
+1 курс/proga/progalab 6/data_variant_8.csv
+1 курс/proga/progalab 7/data.csv
+1 курс/proga/progalab 7/проверка проверка/data.csv

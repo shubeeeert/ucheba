@@ -1,0 +1,166 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <ctype.h>
+#include <windows.h>
+#include <string.h>
+#include <conio.h>
+
+const int max_m = 7;
+
+// определяем структуру для узла
+typedef int t;
+typedef struct node_tag {
+    t value; // значение
+    struct node_tag *next; // указатель на следующий узел
+} node;
+
+// вставка (push)
+void push(node **head, t value) {
+    node *tmp = malloc(sizeof(node));
+    tmp->next = *head;
+    tmp->value = value;
+    *head = tmp;
+}
+
+// достать элемент сверху (pop)
+t pop(node **head) {
+    node *out;
+    t value;
+    out = *head;
+    *head = (*head)->next;
+    value = out->value;
+    free(out);
+    return value;
+}
+
+void clear(node **head) {
+    node *out;
+    t value;
+    out = *head;
+    *head = (*head)->next;
+    value = out->value;
+    free(out);
+}
+
+bool isEmpty(node **head) {
+    if (getsize(head) == 0) return true;
+    else return false;
+}
+// вывод стека (display)
+void display(const node* head) {
+    printf("Стек:\n");
+    while (head) {
+            printf("%d\n", head->value);
+            head = head->next;
+    }
+}
+
+// размер стека
+t getsize(const node *head) {
+    t size = 0;
+    while (head) {
+            size++;
+            head = head->next;
+    }
+    return size;
+}
+
+void push_mid(node **head, t value) {
+    t mid = (*head)->value / 2;
+    t elem;
+    node *tmp = NULL;
+    for (int i = 0; i < mid; i++) {
+        elem = pop(&head);
+        push(&tmp, elem);
+    }
+    push(&head, value);
+    for (int i = 0; i < mid; i++) {
+        elem = pop(&tmp);
+        push(&head, elem);
+    }
+}
+
+// стрелочка
+void arrow(int realpos, int arrowpos) { 
+    if (realpos == arrowpos) printf(" >>> ");
+    else printf("     ");
+}
+
+void menu() {
+    system("cls");
+    node *head = NULL;
+    int pos = 1, push_num;
+    int keypressed = 0;
+
+    #define MAX 6
+    #define MIN 1
+
+    while (keypressed != 27) {
+        system("cls");
+
+        arrow(1,pos); printf("1. Вставка (push)\n");
+        arrow(2,pos); printf("2. Достать элемент сверху (pop)\n");
+        arrow(3,pos); printf("3. Отображение стека\n");
+        arrow(4,pos); printf("4. Очистка стека\n");
+        arrow(5,pos); printf("5. Узнать размер\n");
+        arrow(6,pos); printf("6. Умножить/сложить все элементы и поместить результат в начало/середину/конец стека\n");
+
+        keypressed = getch();
+        if (keypressed == 80 && pos != MAX) pos++;
+        else if (keypressed == 72 && pos != MIN) pos--;
+        else pos = pos;
+
+        if (keypressed == 13) {
+            switch (pos) {
+                case 1: {
+                    system("cls");
+                    printf("Введите число\n");
+                    scanf("%d", &push_num);
+                    push(&head, push_num);
+                    system("pause");
+                    break;
+                }
+                case 2: {
+                    system("cls");
+                    if (getsize(head) == 0) printf("Стек пуст\n");
+                    else printf("Изъятый элемент: %d\n", pop(&head));
+                    system("pause");
+                    break;
+                }
+                case 3: {
+                    system("cls");
+                    display(head);
+                    system("pause");
+                    break;
+                }
+                case 4: {
+                    system("cls");
+                    while (getsize(head) > 0) clear(&head);
+                    printf("Стек очищен\n");
+                    system("pause");
+                    break;
+                }
+                case 5: {
+                    system("cls");
+                    printf("Размер = %d\n", getsize(head));
+                    system("pause");
+                    break;
+                }
+                case 6: {
+                    system("cls");
+                    push_mid(&head, 67);
+                    system("pause");
+                    break;
+                }
+            }
+        }
+    }
+}
+
+int main() {
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+    menu();
+    return 0;
+}
