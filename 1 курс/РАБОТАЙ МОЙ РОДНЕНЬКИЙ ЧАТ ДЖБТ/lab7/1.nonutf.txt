@@ -1,0 +1,49 @@
+class MarketingPlanPromptBuilder:
+    def __init__(self):
+        self.system_role = (
+            "Ты — опытный маркетинговый директор и эксперт по стратегическому планированию. "
+            "Твоя задача — создавать структурированные, реалистичные и измеримые маркетинговые планы."
+        )
+        self.product = None
+        self.budget = None
+        self.timeline = None
+
+    def set_product(self, product):
+        self.product = product
+        return self
+
+    def set_budget(self, budget):
+        self.budget = budget
+        return self
+
+    def set_timeline(self, timeline):
+        self.timeline = timeline
+        return self
+
+    def build_prompt(self):
+        if not self.product or not self.budget or not self.timeline:
+            raise ValueError("Необходимо задать продукт, бюджет и сроки.")
+
+        instruction = (
+            f"Разработай маркетинговый план для продукта: '{self.product}'.\n"
+            f"Бюджет: {self.budget}.\n"
+            f"Сроки реализации: {self.timeline}.\n\n"
+            "Требования к ответу:\n"
+            "1. Верни ответ ТОЛЬКО в формате валидного JSON без markdown-оберток и пояснений.\n"
+            "2. Строго следуй схеме:\n"
+            "{\n"
+            '  "title": "Название плана",\n'
+            '  "slides": [\n'
+            '    {"slide": 1, "topic": "Каналы продвижения", "points": ["канал1", "канал2"], "speaker_notes": "Комментарий"},\n'
+            '    {"slide": 2, "topic": "Медиаплан", "points": ["распределение бюджета по месяцам"], "speaker_notes": "Комментарий"},\n'
+            '    {"slide": 3, "topic": "Ожидаемые показатели (KPI)", "points": ["метрика1", "метрика2"], "speaker_notes": "Комментарий"},\n'
+            '    {"slide": 4, "topic": "Креативная концепция", "points": ["идея", "визуал", "тон"], "speaker_notes": "Комментарий"}\n'
+            '  ]\n'
+            "}\n"
+            "3. Подбирай каналы и KPI строго в рамках указанного бюджета и сроков."
+        )
+
+        return [
+            {"role": "system", "content": self.system_role},
+            {"role": "user", "content": instruction}
+        ]

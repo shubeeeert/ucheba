@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание поезда № 042В «Восточный экспресс»</title>
+    <style>
+        body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background: linear-gradient(135deg, #1e3c72, #2a5298);color: #333;margin: 0;padding: 20px;}
+        .container {max-width: 900px;margin: 30px auto;background: white;border-radius: 12px;box-shadow: 0 10px 30px rgba(0,0,0,0.3);overflow: hidden;}
+        header {background: #0d47a1;color: white;padding: 25px;text-align: center;}
+        h1 {margin: 0;font-size: 2.2em;}
+        .route {font-size: 1.4em;margin-top: 8px;opacity: 0.95;}
+        .info {background: #e3f2fd;padding: 15px;text-align: center;font-size: 1.1em;}
+        table {width: 100%;border-collapse: collapse;}
+        th {background: #1565c0;color: white;padding: 15px;text-align: left;}
+        td {padding: 14px 16px;border-bottom: 1px solid #ddd;}
+        tr:nth-child(even) {background-color: #f8fdff;}
+        tr:hover {background-color: #e1f5fe;}
+        .station {font-weight: bold;font-size: 1.1em;}
+        .time {text-align: center;font-family: 'Courier New', monospace;font-size: 1.15em;}
+        .duration {text-align: center;color: #555;font-size: 0.9em;}
+        .no-time {color: #999;font-style: italic;text-align: center;}
+        footer {text-align: center;padding: 20px;background: #0d47a1;color: white;font-size: 0.9em;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Поезд № 042В «Восточный экспресс»</h1>
+            <div class="route">Москва → Владивосток</div>
+        </header>
+
+        <div class="info">
+            <strong>Отправление:</strong> 08 октября 2024, 00:10  |  
+            <strong>Прибытие:</strong> 15 октября 2024, 23:55
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Станция</th>
+                    <th>Прибытие</th>
+                    <th>Стоянка</th>
+                    <th>Отправление</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td class="station">Москва Ярославская</td>
+                    <td class="time">—</td>
+                    <td class="duration">—</td>
+                    <td class="time">00:10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="station">Нижний Новгород Московский</td>
+                    <td colspan="3" class="no-time">время не указано</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="station">Киров Пассажирский</td>
+                    <td class="time">13:55</td>
+                    <td class="duration">25 мин</td>
+                    <td class="time">14:20</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td class="station">Пермь II</td>
+                    <td colspan="3" class="no-time">время не указано</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td class="station">Екатеринбург Пассажирский</td>
+                    <td class="time">01:44</td>
+                    <td class="duration">30 мин</td>
+                    <td class="time">02:14</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td class="station">Омск</td>
+                    <td colspan="3" class="no-time">время не указано</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td class="station">Новосибирск Главный</td>
+                    <td class="time">19:38</td>
+                    <td class="duration">40 мин</td>
+                    <td class="time">20:18</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td class="station">Красноярск</td>
+                    <td class="time">06:12</td>
+                    <td class="duration">30 мин</td>
+                    <td class="time">06:42</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td class="station">Иркутск Пассажирский</td>
+                    <td colspan="3" class="no-time">время не указано</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td class="station">Улан-Удэ</td>
+                    <td colspan="3" class="no-time">время не указано</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td class="station">Хабаровск I</td>
+                    <td class="time">18:45</td>
+                    <td class="duration">30 мин</td>
+                    <td class="time">19:15</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td class="station">Владивосток</td>
+                    <td class="time">23:55</td>
+                    <td class="duration">—</td>
+                    <td class="time">—</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+            Время прибытия/отправления на 5 станциях не публикуется.<br>
+            Уточняйте у проводника или на вокзале.
+        </footer>
+    </div>
+</body>
+</html>

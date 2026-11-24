@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Unit Converter</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Data Unit Converter</h1>
+        <p>Quickly convert between bits, bytes, and multiples.</p>
+    </header>
+
+    <main>
+        <!-- Input Section -->
+        <section class="input-section">
+            <h2>Input Data</h2>
+            
+            <label for="value-input">Amount:</label>
+            <input type="number" id="value-input" placeholder="Enter number" min="0" step="any">
+
+            <label for="from-unit">From unit:</label>
+            <select id="from-unit">
+                <option value="bit">Bit (b)</option>
+                <option value="byte">Byte (B)</option>
+                <option value="kb">Kilobyte (KB)</option>
+                <option value="mb">Megabyte (MB)</option>
+                <option value="gb">Gigabyte (GB)</option>
+                <option value="tb">Terabyte (TB)</option>
+            </select>
+
+            <label for="to-unit">To unit:</label>
+            <select id="to-unit">
+                <option value="bit">Bit (b)</option>
+                <option value="byte">Byte (B)</option>
+                <option value="kb" selected>Kilobyte (KB)</option>
+                <option value="mb">Megabyte (MB)</option>
+                <option value="gb">Gigabyte (GB)</option>
+                <option value="tb">Terabyte (TB)</option>
+            </select>
+        </section>
+
+        <!-- Unit System Section -->
+        <section class="radio-section">
+            <h2>Calculation System</h2>
+            
+            <input type="radio" id="base-binary" name="base-toggle" value="1024" checked>
+            <label for="base-binary">Binary (1 KB = 1024 Bytes)</label>
+            
+            <input type="radio" id="base-decimal" name="base-toggle" value="1000">
+            <label for="base-decimal">Decimal (1 KB = 1000 Bytes)</label>
+        </section>
+
+        <!-- Action Section -->
+        <section class="action-section">
+            <button type="button" id="convert-btn">Convert</button>
+        </section>
+
+        <!-- Result and Error Section -->
+        <section class="result-section">
+            <h2>Result</h2>
+            
+            <!-- Error messages block -->
+            <div id="error-container" hidden>
+                <p><strong>Error:</strong> <span id="error-message"></span></p>
+            </div>
+
+            <!-- Successful result block -->
+            <div id="result-container">
+                <p>Final value: <strong id="result-output">-</strong></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Data Unit Converter Application</p>
+    </footer>
+
+</body>
+</html>

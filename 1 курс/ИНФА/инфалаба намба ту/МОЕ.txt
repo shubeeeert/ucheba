@@ -1,0 +1,21 @@
+# ЗАДАНИЕ 1
+x = int(input())
+k = 0
+if x == 0: k += 1
+while x > 0:
+    if x % 2 == 0:
+        k += 1
+    x = x // 2
+print(k)
+
+# ЗАДАНИЕ 2
+x, k, n = map(int, input().split())
+c = 0
+if x == 0: print(0)
+while x > 0:
+    a = x % k
+    if c == n:
+        print(a)
+    c += 1
+    x = x // k
+

@@ -1,0 +1,21 @@
+{
+  "app_title": "??? DevData Generator",
+  "sidebar": {
+    "entity_type": "Тип сущности:",
+    "records_count": "Количество записей:",
+    "add_nulls": "Добавить пропуски (NULL)",
+    "generate_btn": "Запустить генерацию",
+    "loading": "?? Инициализация ETL-конвейера...",
+    "success": "? Генерация завершена. Валидация типов пройдена."
+  },
+  "table_columns": {
+    "id": "Record_ID",
+    "name": "Full_Name",
+    "email": "Contact_Email",
+    "date": "Created_At",
+    "price": "Value_USD",
+    "status": "Status_Flag"
+  },
+  "export_btn": "?? Экспорт в CSV",
+  "empty_state": "Настройте параметры в боковой панели и запустите генерацию."
+}

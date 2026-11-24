@@ -1,0 +1,8 @@
+# Тестирование сборки промпта без обращения к API
+builder = MarketingPlanPromptBuilder()
+prompt_data = builder.set_product("Умные часы FitLife").set_budget("500 000 ?").set_timeline("2 месяца").build_prompt()
+
+print("--- СБОРКА ПРОМПТА (ЗАДАНИЕ 1) ---")
+print(f"System Role: {prompt_data[0]['content'][:50]}...")
+print(f"User Prompt:\n{prompt_data[1]['content']}")
+print("\nПроверка структуры завершена. Промпт готов к отправке в LLM.")

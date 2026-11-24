@@ -1,0 +1,27 @@
+{
+  "prank_type": "fake_delivery_service",
+  "service_name": "СкороЗон",
+  "fake_product": {
+    "name": "Квантовый пылесос X-9000",
+    "price": "8500 рублей",
+    "features": "термоядерный синтез"
+  },
+  "victim_address": {
+    "street": "улица Ленина",
+    "building": "42",
+    "apartment": "7Б"
+  },
+  "codes_and_laws": [
+    "ПЫЛЕСОК2026",
+    "159 УК РФ"
+  ],
+  "prank_organizer": "Клуб веселых соседей",
+  "compensation": "скидка 15% на пиццу",
+  "victim_emotion_progression": [
+    "подозрение",
+    "раздражение",
+    "возмущение",
+    "гнев/крик"
+  ],
+  "background_mention": "радио «Юмор FM»"
+}

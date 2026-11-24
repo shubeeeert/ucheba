@@ -1,0 +1,20 @@
+1. Intel Core i9-13900K, 24 ядра, 5.8 GHz, LGA1700
+2. NVIDIA GeForce RTX 4090 24 ГБ GDDR6X
+3. Kingston Fury Beast 32GB (2x16GB) DDR5-6000 CL36
+4. Samsung 990 PRO 2TB NVMe PCIe 5.0 x4 M.2 SSD
+5. AMD Ryzen 7 7800X3D 8 ядер 16 потоков AM5
+6. Corsair Vengeance RGB 64GB (4x16GB) DDR4-3600
+7. Seagate Barracuda 8TB 5400 rpm 3.5" HDD
+8. ASUS ROG Strix RTX 4070 Ti 12GB
+9. G.Skill Trident Z5 RGB 32GB (2x16GB) DDR5-7200
+10. WD Black SN850X 4TB PCIe 4.0 NVMe SSD
+11. Intel Core i5-14600K 14 ядер (6P+8E) до 5.3 GHz
+12. Crucial T700 2TB PCIe Gen5 NVMe M.2 SSD со скоростью до 12400 МБ/с
+13. AMD Radeon RX 7900 XTX 24GB
+14. TeamGroup T-Force Delta RGB 16GB (2x8GB) DDR4-3200
+15. Samsung 980 1TB NVMe SSD (без DRAM-кэша)
+16. Noctua NH-D15 chromax.black (воздушный кулер для процессора)
+17. Ryzen 9 7950X 16 ядер 32 потока 170 Вт TDP
+18. MSI MPG B650 Carbon WiFi (материнская плата AM5)
+19. Patriot Viper Venom 32GB (2x16GB) DDR5-6200
+20. Gigabyte AORUS Gen4 7000s 2TB SSD с радиатором PS5

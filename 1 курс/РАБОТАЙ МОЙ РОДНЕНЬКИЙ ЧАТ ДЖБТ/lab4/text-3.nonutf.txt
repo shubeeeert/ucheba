@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CulinaryVideoNER_Schema",
+  "type": "object",
+  "properties": {
+    "video_info": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "duration": { "type": "string", "pattern": "^[0-9]{2}:[0-9]{2}$" },
+        "primary_category": {
+          "type": "string",
+          "enum": ["Мясные блюда", "Выпечка и десерты", "Вегетарианские блюда", "Напитки и коктейли"]
+        }
+      },
+      "required": ["title", "duration", "primary_category"]
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "quantity_or_state": { "type": "string" },
+          "first_appearance": { "type": "string", "pattern": "^[0-9]{2}:[0-9]{2}$" }
+        },
+        "required": ["name", "quantity_or_state", "first_appearance"]
+      }
+    },
+    "equipment_and_tools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tool_name": { "type": "string" },
+          "usage_context": { "type": "string" },
+          "active_interval": { "type": "string", "pattern": "^[0-9]{2}:[0-9]{2} - [0-9]{2}:[0-9]{2}$" }
+        },
+        "required": ["tool_name", "usage_context", "active_interval"]
+      }
+    },
+    "cooking_steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "step_name": { "type": "string" },
+          "description": { "type": "string" },
+          "time_range": { "type": "string", "pattern": "^[0-9]{2}:[0-9]{2} - [0-9]{2}:[0-9]{2}$" }
+        },
+        "required": ["step_name", "description", "time_range"]
+      }
+    }
+  },
+  "required": ["video_info", "ingredients", "equipment_and_tools", "cooking_steps"],
+  "additionalProperties": false
+}

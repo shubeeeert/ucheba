@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 605 215">
+   <polyline fill="none" points="372,65 472,65" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <polyline fill="none" points="492,185 512,185" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <polyline fill="none" points="132,105 132,205 192,205" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <polyline fill="none" points="252,85 272,85" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <circle cx="272.0" cy="85.0" fill="rgb(0, 0, 0)" r="5.0" stroke="none" stroke-width="3.0"/>
+   <circle cx="292.0" cy="45.0" fill="rgb(0, 0, 0)" r="5.0" stroke="none" stroke-width="3.0"/>
+   <circle cx="162.0" cy="65.0" fill="rgb(0, 0, 0)" r="5.0" stroke="none" stroke-width="3.0"/>
+   <circle cx="132.0" cy="105.0" fill="rgb(0, 0, 0)" r="5.0" stroke="none" stroke-width="3.0"/>
+   <polyline fill="none" points="77,65 82,65 162,65" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <polygon fill="none" points="43,56 67,56 77,65 67,74 43,74" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <text fill="rgb(0, 0, 0)" font-family="Monospaced" font-size="12" x="48.0" y="72.0">x1</text>
+   <text fill="rgb(0, 0, 0)" font-family="Monospaced" font-size="16" font-weight="bold" x="29.0" y="73.0">A</text>
+   <circle cx="82.0" cy="65.0" fill="rgb(0, 0, 0)" r="2.0" stroke="none" stroke-width="2.0"/>
+   <path d="M217.0,210.0 A25.0,25.0 90.0 0,0 217.0,160.0" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2.0"/>
+   <polyline fill="none" points="217,160 193,160 193,210 217,210" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <path d="M347.0,170.0 A25.0,25.0 90.0 0,0 347.0,120.0" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2.0"/>
+   <polyline fill="none" points="347,120 323,120 323,170 347,170" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <polyline fill="none" points="516,185 513,185" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <polygon fill="none" points="518,176 542,176 552,185 542,194 518,194" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <text fill="rgb(0, 0, 0)" font-family="Monospaced" font-size="12" x="518.0" y="192.0">x1</text>
+   <text fill="rgb(0, 0, 0)" font-family="Monospaced" font-size="16" font-weight="bold" x="554.0" y="193.0">C_out</text>
+   <circle cx="512.0" cy="185.0" fill="rgb(0, 0, 0)" r="2.0" stroke="none" stroke-width="2.0"/>
+   <polyline fill="none" points="476,65 473,65" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <polygon fill="none" points="478,56 502,56 512,65 502,74 478,74" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <text fill="rgb(0, 0, 0)" font-family="Monospaced" font-size="12" x="478.0" y="72.0">x1</text>
+   <text fill="rgb(0, 0, 0)" font-family="Monospaced" font-size="16" font-weight="bold" x="514.0" y="73.0">S</text>
+   <circle cx="472.0" cy="65.0" fill="rgb(0, 0, 0)" r="2.0" stroke="none" stroke-width="2.0"/>
+   <polyline fill="none" points="372,145 402,145 402,165 442,165 444,165" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <polyline fill="none" points="242,185 332,185 332,205 442,205 444,205" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <path d=" M492.0,185.0 C472.0,160.0 472.0,160.0 442.0,160.0 C455.0,185.0 455.0,185.0 442.0,210.0 C472.0,210.0 472.0,210.0 492.0,185.0 Z" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <polyline fill="none" points="77,15 82,15 262,15 262,45 292,45" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <polygon fill="none" points="43,6 67,6 77,15 67,24 43,24" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <text fill="rgb(0, 0, 0)" font-family="Monospaced" font-size="12" x="48.0" y="22.0">x1</text>
+   <text fill="rgb(0, 0, 0)" font-family="Monospaced" font-size="16" font-weight="bold" x="5.0" y="23.0">C_in</text>
+   <circle cx="82.0" cy="15.0" fill="rgb(0, 0, 0)" r="2.0" stroke="none" stroke-width="2.0"/>
+   <polyline fill="none" points="322,125 292,125 292,45 312,45 314,45" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <polyline fill="none" points="322,165 272,165 272,85 312,85 314,85" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <path d=" M372.0,65.0 C352.0,40.0 352.0,40.0 322.0,40.0 C335.0,65.0 335.0,65.0 322.0,90.0 C352.0,90.0 352.0,90.0 372.0,65.0 Z" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <path d=" M312.0,40.0 C325.0,65.0 325.0,65.0 312.0,90.0" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <polygon fill="none" points="43,96 67,96 77,105 67,114 43,114" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <text fill="rgb(0, 0, 0)" font-family="Monospaced" font-size="12" x="48.0" y="112.0">x1</text>
+   <text fill="rgb(0, 0, 0)" font-family="Monospaced" font-size="16" font-weight="bold" x="28.0" y="113.0">B</text>
+   <circle cx="82.0" cy="105.0" fill="rgb(0, 0, 0)" r="2.0" stroke="none" stroke-width="2.0"/>
+   <polyline fill="none" points="192,165 162,165 162,65 192,65 194,65" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <polyline fill="none" points="77,105 82,105 132,105 192,105 194,105" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="3.0"/>
+   <path d=" M252.0,85.0 C232.0,60.0 232.0,60.0 202.0,60.0 C215.0,85.0 215.0,85.0 202.0,110.0 C232.0,110.0 232.0,110.0 252.0,85.0 Z" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+   <path d=" M192.0,60.0 C205.0,85.0 205.0,85.0 192.0,110.0" fill="none" stroke="rgb(0, 0, 0)" stroke-linecap="square" stroke-width="2.0"/>
+</svg>

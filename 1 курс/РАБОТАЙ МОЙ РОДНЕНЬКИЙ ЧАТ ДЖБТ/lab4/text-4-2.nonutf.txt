@@ -1,0 +1,73 @@
+{
+  "video_info": {
+    "title": "Идеальный стейк рибай на сковороде",
+    "duration": "08:12",
+    "category": "Мясные блюда"
+  },
+  "ingredients": [
+    {
+      "name": "Стейк рибай",
+      "quantity": "300 г",
+      "preparation_state": "комнатная температура, обсушенный",
+      "first_appearance": "00:15"
+    },
+    {
+      "name": "Масло гхи",
+      "quantity": "1 ст.л.",
+      "preparation_state": "растопленное",
+      "first_appearance": "01:45"
+    },
+    {
+      "name": "Чеснок",
+      "quantity": "2 зубчика",
+      "preparation_state": "раздавленный",
+      "first_appearance": "03:10"
+    },
+    {
+      "name": "Тимьян свежий",
+      "quantity": "3 веточки",
+      "preparation_state": "целые",
+      "first_appearance": "03:15"
+    },
+    {
+      "name": "Крупная морская соль",
+      "quantity": "по вкусу",
+      "preparation_state": "сухая",
+      "first_appearance": "00:45"
+    }
+  ],
+  "techniques": [
+    {
+      "technique_name": "Обжарка на сильном огне",
+      "description": "Формирование корочки по методу Майяра",
+      "tools_used": ["Чугунная сковорода", "Кухонные щипцы"],
+      "timestamp_range": "01:45 - 04:30"
+    },
+    {
+      "technique_name": "Бастинг (поливание маслом)",
+      "description": "Ароматизация мяса горячим маслом с травами и чесноком",
+      "tools_used": ["Чугунная сковорода", "Деревянная ложка"],
+      "timestamp_range": "03:20 - 05:10"
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "Прогрев сковороды и обжарка мяса",
+      "temperature_or_visual_cue": "Сковорода раскалена, дымится, масло шипит при контакте",
+      "duration": "02:45"
+    },
+    {
+      "step_number": 2,
+      "action": "Добавление ароматизаторов и поливание",
+      "temperature_or_visual_cue": "Огонь уменьшен, масло пенится, чеснок и тимьян отдают цвет",
+      "duration": "01:50"
+    },
+    {
+      "step_number": 3,
+      "action": "Отдых стейка перед подачей",
+      "temperature_or_visual_cue": "Мясо вынуто, накрыто фольгой, сок перераспределяется",
+      "duration": "03:00"
+    }
+  ]
+}
